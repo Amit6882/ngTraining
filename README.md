@@ -31,16 +31,12 @@ We can install the master branch using the following commands:
 
 This repository is made of several separate npm modules, that are installable separately. For example, to run the au-input module, we can do the following:
 
-    cd angular-course
+    cd <project directory>
     npm install
 
 Its also possible to install the modules as usual using npm:
 
     npm install
-
-NPM 5 or above has the big advantage that if you use it you will be installing the exact same dependencies than I installed in my machine, so you wont run into issues caused by semantic versioning updates.
-
-This should take a couple of minutes. If there are issues, please post the complete error message in the Questions section of the course.
 
 # To run the Development UI Server
 
