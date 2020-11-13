@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "basicNgApp"
+    }
+  },
+  "defaultProject": "basicNgApp",
+  "cli": {
+    "analytics": false
+  }
 }
