@@ -8,9 +8,6 @@ import { Course } from '../model/course'
 })
 export class CourseCardComponent implements OnInit {
 
-  // @Input()
-  // title: string
-
   @Input()
   course: Course;
 
