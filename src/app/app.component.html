@@ -5,10 +5,29 @@
 
 </div>
 
+<!-- Assign data to member variable first -->
+<!-- <h1>{{coreCourse.description}}</h1>
+<h1>{{rxjsCourse.description}}</h1>
+<h1>{{ngrxCourse.description}}</h1> -->
 
 <div class="courses">
+  <!-- Custom angular component -->
+  <!-- <course-card></course-card> -->
+  <!-- <course-card></course-card> -->
+  <!-- <course-card></course-card> -->
 
-    <div class="course-card">
+  <!-- pass title, image, etc angular component -->
+  <!-- <course-card [title]="coreCourse.description"></course-card>
+  <course-card [title]="rxjsCourse.description"></course-card>
+  <course-card [title]="ngrxCourse.description"></course-card> -->
+
+  <!-- Pass the course object instead -->
+  <course-card [course]="coreCourse"></course-card>
+  <course-card [course]="rxjsCourse"></course-card>
+  <course-card [course]="ngrxCourse"></course-card>
+
+
+    <!-- <div class="course-card">
 
         <div class="course-title">
             Angular Core Deep Dive
@@ -20,7 +39,7 @@
             A detailed walk-through of the most important part of Angular - the Core and Common modules.
         </div>
 
-    </div>
+    </div> -->
 
 </div>
 
