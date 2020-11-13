@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {COURSES} from '../db-data';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,5 @@ import {COURSES} from '../db-data';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-
-
+  title = 'basicNgApp';
 }

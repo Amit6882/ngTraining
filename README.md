@@ -1,47 +1,27 @@
+# BasicNgApp
 
-##  Team Cadent: Angular Training
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-This repository contains the code of the Angular
+## Development server
 
-# Installation pre-requisites
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-IMPORTANT: Please use the latest Node and especially NPM.
+## Code scaffolding
 
-For running this project we need and npm installed on our machine. These are some tutorials to install node in different operating systems:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-*Its important to install the latest version of Node*
+## Build
 
-- [Install Node and NPM on Windows](https://www.youtube.com/watch?v=8ODS6RM6x7g)
-- [Install Node and NPM on Linux](https://www.youtube.com/watch?v=yUdHk-Dk_BY)
-- [Install Node and NPM on Mac](https://www.youtube.com/watch?v=Imj8PgG3bZU)
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Running unit tests
 
-# Installing the Angular CLI
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-With the following command the angular-cli will be installed globally in your machine:
+## Running end-to-end tests
 
-    npm install -g @angular/cli
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Further help
 
-# How To install this repository
-
-We can install the master branch using the following commands:
-
-    git clone https://github.com/Amit6882/ngTraining.git
-
-This repository is made of several separate npm modules, that are installable separately. For example, to run the au-input module, we can do the following:
-
-    cd <project directory>
-    npm install
-
-Its also possible to install the modules as usual using npm:
-
-    npm install
-
-# To run the Development UI Server
-
-To run the frontend part of our code, we will use the Angular CLI:
-
-    npm start
-
-The application is visible at port 4200: [http://localhost:4200](http://localhost:4200)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
