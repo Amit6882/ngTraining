@@ -1,4 +1,12 @@
-<div class="course-card" *ngIf="course">
+<!-- <div class="course-card" *ngIf="course"> -->
+<!-- <div class="course-card begineer" *ngIf="course"> -->
+<!-- <div class="course-card" [ngClass]="'begineer'" *ngIf="course"> -->
+<!-- <div class="" [ngClass]="'course-card begineer'" *ngIf="course"> -->
+<!-- <div class="course-card" [ngClass]="['begineer']" *ngIf="course"> -->
+<!-- <div class="" [ngClass]="['begineer', 'course-card']" *ngIf="course"> -->
+<!-- <div class="" [ngClass]="{'begineer': true, 'course-card': true}" *ngIf="course"> -->
+<!-- <div class="" [ngClass]="{'begineer': false, 'course-card': true}" *ngIf="course"> -->
+<div class="course-card" [ngClass]="cardClass()" *ngIf="course">
 
     <div class="course-title">
        {{cardIndex + ' ' + course.description }}

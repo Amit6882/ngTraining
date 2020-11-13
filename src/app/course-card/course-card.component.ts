@@ -31,4 +31,25 @@ export class CourseCardComponent implements OnInit {
     return this.course && this.course.iconUrl; 
   }
 
+  /* only defined here class which are conditionally applied
+  // add or removed style to template depending on the content of data
+  it is not meant to replace the css class property which is constant and is always associated to the html content.
+  */
+  cardClass() {
+    // return {
+    //   'begineer': true, 
+    //   'course-card': true
+    // }
+    
+    
+    // return {
+    //   'begineer': this.course.category === 'BEGINNER'
+    // }
+
+    if(this.course.category === 'BEGINNER') {
+      // return ['begineer']
+      return 'begineer';
+    }
+  }
+
 }
