@@ -9,7 +9,7 @@ import { Course } from './model/course';
 })
 export class AppComponent {
 
-  // courses: Course[] = COURSES;
+  courses: Course[] = COURSES;
 
   coreCourse = COURSES[0];
   ngrxCourse = COURSES[1];
