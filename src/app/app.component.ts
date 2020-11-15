@@ -14,9 +14,9 @@ export class AppComponent {
   rxjsCourse = COURSES[2];
 
   // Event bubbling captured
-  // onCardClicked() {
-  //   console.log("App component - click event bubbled...");
-  // }
+  onCardClicked() {
+    console.log("App component - click event bubbled...");
+  }
 
   onCourseSelected(course: Course) {
     console.log("App component - click event bubbled...", course);
